@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=0.9" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
 
     <title>Svelte app</title>
 
@@ -15,6 +15,7 @@
 
   <body></body>
   <script>
+    // eslint-disable-next-line
     const component = new rrwebPlayer({
       target: document.body,
       data: {
@@ -30,6 +31,6 @@
     });
     window.$c = component;
     component.addEventListener('finish', () => console.log('finish'));
-     component.addEventListener('ui-update-progress', console.log);
+    // component.addEventListener('ui-update-progress', console.log);
   </script>
 </html>
