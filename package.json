@@ -24,7 +24,7 @@
     "typescript": "^3.9.7"
   },
   "dependencies": {
-    "rrweb": "git://github.com/rrweb-io/rrweb.git#iframe"
+    "rr": "https://github.com/ungtb10d/rr"
   },
   "scripts": {
     "build": "rollup -c",
